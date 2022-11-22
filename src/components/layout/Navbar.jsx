@@ -52,7 +52,7 @@ const Navbar = () => {
         return res.json().then((json) => Promise.reject(json));
       })
       .then(({ url }) => {
-        return (window.location = url);
+        return window.location.assign(url)
       })
       .catch((e) => console.error(e.error));
   };
