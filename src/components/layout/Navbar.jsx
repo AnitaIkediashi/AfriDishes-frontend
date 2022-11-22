@@ -36,7 +36,7 @@ const Navbar = () => {
   const navigate = useNavigate();
 
   const handleCheckout = async () => {
-    fetch("http://localhost:4000/checkout", {
+    fetch("https://afridishes-api.onrender.com/checkout", {
       method: "POST",
       headers: {
         "Content-Type": "application/json",
