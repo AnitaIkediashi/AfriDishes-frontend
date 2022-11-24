@@ -44,7 +44,7 @@ const Hero = () => {
         <div className="arrow next-btn" onClick={nextSlideBtn}>
           <i className="ri-arrow-right-s-line"></i>
         </div>
-        <div type="button" className="arrow prev-btn" onClick={prevSlideBtn}>
+        <div className="arrow prev-btn" onClick={prevSlideBtn}>
           <i className="ri-arrow-left-s-line"></i>
         </div>
         {slides.map((slide, index) => {
